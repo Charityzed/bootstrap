@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<title>
+home
+</title>
+</head>
+<body>
+
+<header>
+
+<img src="img/thealma.png" 
+   class="img-rounded img-displayed" width="140px" height="90px">
+   
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="menu">
+        <span class="sr-only">Menu To Display</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li class="active"><a href="#">BID</a></li>
+       
+        <li class="social pull-right"><a href="http://www.cytonn.com/">Cytonn</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<form action="" method="POST">
+<form class="form-horizontal">
+<fieldset>
+<div class=" well col-md-6 col-md-offset-3 container">
+<!-- Form Name -->
+<legend class="well">FILL THE FORM TO BID</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="First name"></label>  
+  <div class="col-md-6">
+  <input id="First name" name="First name" type="text" placeholder="Enter first name" class="form-control input-md">
+  <span class="help-block">e.g charity zablon</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Last Name"></label>  
+  <div class="col-md-6">
+  <input id="Last Name" name="Last Name" type="text" placeholder="Enter last name" class="form-control input-md">
+  <span class="help-block">e.g Ndirangu</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email"></label>  
+  <div class="col-md-6">
+  <input id="email" name="email" type="email" placeholder="Email Address" class="form-control input-md" required="">
+  <span class="help-block">e.g ndirangu@gmail.com</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Amount"></label>  
+  <div class="col-md-6">
+  <input id="Amount" name="Amount" type="number" placeholder="Amount to bid" class="form-control input-md">
+  <span class="help-block">e.g 10,000</span>  
+  </div>
+</div>
+
+<!-- Button (Double) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-8 center-block">
+    <button id="submit" name="submit" class="btn btn-success enter-block">Submit</button>
+    <button id="Cancel" name="Cancel" class="btn btn-warning ">Cancel</button>
+  </div>
+</div>
+
+</fieldset>
+</div>
+</form>
+
+
+<footer>
+	 <div class="container">
+        <p class="text-muted navbar navbar-inverse navbar-fixed-bottom">&copy; 2015 Cytonn Investments Management Ltd</p>
+      </div>
+	
+</footer>
+</body>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</html>
